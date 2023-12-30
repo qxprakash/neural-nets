@@ -1,0 +1,11 @@
+{
+  "name": "neural-nets",
+  "version": "1.0.0",
+  "description": "Understanding Neural nets by implementing them from ground up in javascript , this contains examples from the blog Hacker's guide to Neural Networks by Andrej Karpathy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prakash",
+  "license": "MIT"
+}
