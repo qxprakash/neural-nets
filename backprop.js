@@ -138,3 +138,11 @@ var y_grad = (forwardCircuitFast(a,b,c,x,y+h) - forwardCircuitFast(a,b,c,x,y))/h
 console.log(a_grad , b_grad , c_grad , x_grad , y_grad)
 
 // Indeed, these all give the same values as the backpropagated gradients [-0.105, 0.315, 0.105, 0.105, 0.210]. meaning we calculated them correctly
+
+
+
+module.exports = {
+  multiplyGate ,
+  addGate,
+  Unit
+};
